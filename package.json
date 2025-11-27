@@ -1,16 +1,9 @@
 {
-  "name": "web-last-block",
+  "name": "kata-1-6",
   "version": "1.0.0",
   "description": "",
-  "keywords": [
-    "web",
-    "scss",
-    "html",
-    "javascript",
-    "webpack"
-  ],
   "license": "ISC",
-  "author": "Kata Academy",
+  "author": "Anna Glaizer",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -53,5 +46,8 @@
     "plugins": {
       "autoprefixer": {}
     }
+  },
+  "dependencies": {
+    "swiper": "^12.0.3"
   }
 }
